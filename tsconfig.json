@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "typeRoots": ["node_modules/@types"],
+    "sourceMap": true,
+    "isolatedModules": true,
+    "target": "ES6",
+    "strict": true
+  },
+  "files": [
+    "./src/index.ts"
+  ],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "docs", "coverage", "tests"],
+}

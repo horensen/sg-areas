@@ -1,0 +1,41 @@
+{
+  "name": "sg-areas",
+  "version": "1.0.0",
+  "description": "Regions, planning areas and subzones in Singapore",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horensen/sg-areas.git"
+  },
+  "keywords": ["sg-areas"],
+  "author": "Ho Ren Sen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/horensen/sg-areas/issues"
+  },
+  "homepage": "https://github.com/horensen/sg-areas#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.4",
+    "prettier": "^2.3.1",
+    "ts-jest": "^27.0.3",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.3.2"
+  }
+}
