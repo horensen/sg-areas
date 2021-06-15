@@ -1,5 +1,11 @@
 import * as data from "./data";
-import { Region, Area, AreaDetails, Subzone, SubzoneDetails } from "./interfaces";
+import {
+  Region,
+  Area,
+  AreaDetails,
+  Subzone,
+  SubzoneDetails,
+} from "./interfaces";
 
 export const administrativeLocations = { Region, Area, Subzone };
 
@@ -14,7 +20,9 @@ export const getAreas = (regions: Region[]): { [id: string]: AreaDetails } => {
     }, {});
 };
 
-export const getSubzones = (areas: Area[]): { [id: string]: SubzoneDetails } => {
+export const getSubzones = (
+  areas: Area[],
+): { [id: string]: SubzoneDetails } => {
   return Object.keys(data.subzones.default)
     .filter((id: string) =>
       areas.includes(data.subzones.default[id as Subzone].area),

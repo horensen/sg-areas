@@ -25,7 +25,7 @@ export enum Area {
   BEDOK = "BDK",
   BISHAN = "BSH",
   BOON_LAY = "BNL",
-  BUKIT_BATOK = "BBT"
+  BUKIT_BATOK = "BBT",
 }
 
 // Administrative level 3
@@ -39,11 +39,10 @@ export interface LocationDetails {
   coordinates?: Coordinates;
 }
 
-export interface RegionDetails extends LocationDetails {
-}
+export interface RegionDetails extends LocationDetails {}
 
 export interface AreaDetails extends LocationDetails {
-  region: Region
+  region: Region;
 }
 
 export interface SubzoneDetails extends LocationDetails {
