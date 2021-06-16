@@ -80,8 +80,18 @@ export enum Area {
 
 // Administrative level 3
 export enum Subzone {
-  AMK_TOWN_CENTRE = "AMK_TC",
-  AMK_CHENG_SAN = "AMK_CS",
+  AMK_TOWN_CENTRE = "AMK_TWC",
+  AMK_CHENG_SAN = "AMK_CHS",
+  AMK_CHONG_BOON = "AMK_CHB",
+  AMK_KEBUN_BAHRU = "AMK_KBB",
+  AMK_SEMBAWANG_HILLS = "AMK_SBH",
+  AMK_SHANGRI_LA = "AMK_SRL",
+  AMK_TAGORE = "AMK_TAG",
+  AMK_TOWNSVILLE = "AMK_TWV",
+  AMK_YIO_CHU_KANG = "AMK_YCK",
+  AMK_YIO_CHU_KANG_EAST = "AMK_YKE",
+  AMK_YIO_CHU_KANG_NORTH = "AMK_YKN",
+  AMK_YIO_CHU_KANG_WEST = "AMK_YKW",
 }
 
 export interface LocationDetails {
