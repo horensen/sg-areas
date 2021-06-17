@@ -101,6 +101,12 @@ export enum Subzone {
   BBT_GUILIN = "BBT_GUL",
   BBT_HILLVIEW = "BBT_HIV",
   BBT_HONG_KAH_NORTH = "BBT_HKN",
+  CCK_CHOA_CHU_KANG_CENTRAL = "CCK_CCC",
+  CCK_CHOA_CHU_KANG_NORTH = "CCK_CCN",
+  CCK_KEAT_HONG = "CCK_KEH",
+  CCK_PENG_SIANG = "CCK_PES",
+  CCK_TECK_WHYE = "CCK_TEW",
+  CCK_YEW_TEE = "CCK_YET"
 }
 
 export interface LocationDetails {

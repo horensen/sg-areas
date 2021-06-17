@@ -106,6 +106,36 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.36271213917, longitude: 103.748003786 },
     area: Area.BUKIT_BATOK,
   },
+  [Subzone.CCK_CHOA_CHU_KANG_CENTRAL]: {
+    name: { en: "Choa Chu Kang Central" },
+    coordinates: { latitude: 1.38500877, longitude: 103.747645425 },
+    area: Area.CHOA_CHU_KANG,
+  },
+  [Subzone.CCK_CHOA_CHU_KANG_NORTH]: {
+    name: { en: "Choa Chu Kang North" },
+    coordinates: { latitude: 1.39243214095, longitude: 103.746583904 },
+    area: Area.CHOA_CHU_KANG,
+  },
+  [Subzone.CCK_KEAT_HONG]: {
+    name: { en: "Keat Hong" },
+    coordinates: { latitude: 1.37549210304, longitude: 103.746459666 },
+    area: Area.CHOA_CHU_KANG,
+  },
+  [Subzone.CCK_PENG_SIANG]: {
+    name: { en: "Peng Siang" },
+    coordinates: { latitude: 1.37876839977, longitude: 103.737108379 },
+    area: Area.CHOA_CHU_KANG,
+  },
+  [Subzone.CCK_TECK_WHYE]: {
+    name: { en: "Teck Whye" },
+    coordinates: { latitude: 1.38158315202, longitude: 103.754872976 },
+    area: Area.CHOA_CHU_KANG,
+  },
+  [Subzone.CCK_YEW_TEE]: {
+    name: { en: "Yew Tee" },
+    coordinates: { latitude: 1.40068278223, longitude: 103.747936375 },
+    area: Area.CHOA_CHU_KANG,
+  },
 };
 
 export default subzones;
