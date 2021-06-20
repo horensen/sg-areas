@@ -222,6 +222,56 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.40068278223, longitude: 103.747936375 },
     area: Area.CHOA_CHU_KANG,
   },
+  [Subzone.JUR_INTERNATIONAL_BUSINESS_PARK]: {
+    name: { en: "International Business Park" },
+    coordinates: { latitude: 1.3263416163, longitude: 103.748087124 },
+    area: Area.JURONG_EAST,
+  },
+  [Subzone.JUR_JURONG_GATEWAY]: {
+    name: { en: "Jurong Gateway" },
+    coordinates: { latitude: 1.33310704523, longitude: 103.742680986 },
+    area: Area.JURONG_EAST,
+  },
+  [Subzone.JUR_JURONG_PORT]: {
+    name: { en: "Jurong Port" },
+    coordinates: { latitude: 1.30962828789, longitude: 103.719711234 },
+    area: Area.JURONG_EAST,
+  },
+  [Subzone.JUR_JURONG_RIVER]: {
+    name: { en: "Jurong River" },
+    coordinates: { latitude: 1.3194152167, longitude: 103.728795093 },
+    area: Area.JURONG_EAST,
+  },
+  [Subzone.JUR_LAKESIDE]: {
+    name: { en: "Lakeside" },
+    coordinates: { latitude: 1.3338391551, longitude: 103.731754814 },
+    area: Area.JURONG_EAST,
+  },
+  [Subzone.JUR_PENJURU_CRESCENT]: {
+    name: { en: "Penjuru Crescent" },
+    coordinates: { latitude: 1.30385715486, longitude: 103.74033082 },
+    area: Area.JURONG_EAST,
+  },
+  [Subzone.JUR_TEBAN_GARDENS]: {
+    name: { en: "Teban Gardens" },
+    coordinates: { latitude: 1.31486094183, longitude: 103.743155584 },
+    area: Area.JURONG_EAST,
+  },
+  [Subzone.JUR_TOH_GUAN]: {
+    name: { en: "Toh Guan" },
+    coordinates: { latitude: 1.33748667796, longitude: 103.746106122 },
+    area: Area.JURONG_EAST,
+  },
+  [Subzone.JUR_YUHUA_EAST]: {
+    name: { en: "Yuhua East" },
+    coordinates: { latitude: 1.34041301708, longitude: 103.738836668 },
+    area: Area.JURONG_EAST,
+  },
+  [Subzone.JUR_YUHUA_WEST]: {
+    name: { en: "Yuhua West" },
+    coordinates: { latitude: 1.34700992878, longitude: 103.731972099 },
+    area: Area.JURONG_EAST,
+  },
 };
 
 export default subzones;
