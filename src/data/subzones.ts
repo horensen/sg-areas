@@ -1,4 +1,5 @@
 import { Area, Subzone, SubzoneDetails } from "../interfaces";
+import areas from "./areas";
 
 const subzones: { [id in Subzone]: SubzoneDetails } = {
   [Subzone.AMK_TOWN_CENTRE]: {
@@ -105,6 +106,91 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     name: { en: "Hong Kah North" },
     coordinates: { latitude: 1.36271213917, longitude: 103.748003786 },
     area: Area.BUKIT_BATOK,
+  },
+  [Subzone.BMR_ALEXANDRA_HILL]: {
+    name: { en: "Alexandra Hill" },
+    coordinates: { latitude: 1.28750582278, longitude: 103.809586514 },
+    area: Area.BUKIT_MERAH,
+  },
+  [Subzone.BMR_ALEXANDRA_NORTH]: {
+    name: { en: "Alexandra North" },
+    coordinates: { latitude: 1.29228101758, longitude: 103.820273998 },
+    area: Area.BUKIT_MERAH,
+  },
+  [Subzone.BMR_BUKIT_HO_SWEE]: {
+    name: { en: "Bukit Ho Swee" },
+    coordinates: { latitude: 1.28967167647, longitude: 103.83044381 },
+    area: Area.BUKIT_MERAH,
+  },
+  [Subzone.BMR_BUKIT_MERAH]: {
+    name: { en: "Bukit Merah" },
+    coordinates: { latitude: 1.28201421407, longitude: 103.818589723 },
+    area: Area.BUKIT_MERAH,
+  },
+  [Subzone.BMR_CITY_TERMINALS]: {
+    name: { en: "City Terminals" },
+    coordinates: { latitude: 1.26964132799, longitude: 103.841106897 },
+    area: Area.BUKIT_MERAH,
+  },
+  [Subzone.BMR_DEPOT_ROAD]: {
+    name: { en: "Depot Road" },
+    coordinates: { latitude: 1.28222169544, longitude: 103.808556713 },
+    area: Area.BUKIT_MERAH,
+  },
+  [Subzone.BMR_EVERTON_PARK]: {
+    name: { en: "Everton Park" },
+    coordinates: { latitude: 1.27494980481, longitude: 103.836315892 },
+    area: Area.BUKIT_MERAH,
+  },
+  [Subzone.BMR_HENDERSON_HILL]: {
+    name: { en: "Henderson Hill" },
+    coordinates: { latitude: 1.28698482534, longitude: 103.82238178 },
+    area: Area.BUKIT_MERAH,
+  },
+  [Subzone.BMR_KAMPONG_TIONG_BAHRU]: {
+    name: { en: "Kampong Tiong Bahru" },
+    coordinates: { latitude: 1.27835727125, longitude: 103.827350766 },
+    area: Area.BUKIT_MERAH,
+  },
+  [Subzone.BMR_MARITIME_SQUARE]: {
+    name: { en: "Maritime Square" },
+    coordinates: { latitude: 1.26869538007, longitude: 103.813602827 },
+    area: Area.BUKIT_MERAH,
+  },
+  [Subzone.BMR_REDHILL]: {
+    name: { en: "Redhill" },
+    coordinates: { latitude: 1.28763538212, longitude: 103.817162441 },
+    area: Area.BUKIT_MERAH,
+  },
+  [Subzone.BMR_SINGAPORE_GENERAL_HOSPITAL]: {
+    name: { en: "Singapore General Hospital" },
+    coordinates: { latitude: 1.2797252541, longitude: 103.834641417 },
+    area: Area.BUKIT_MERAH,
+  },
+  [Subzone.BMR_TELOK_BLANGAH_DRIVE]: {
+    name: { en: "Telok Blangah Drive" },
+    coordinates: { latitude: 1.27665412933, longitude: 103.808880727 },
+    area: Area.BUKIT_MERAH,
+  },
+  [Subzone.BMR_TELOK_BLANGAH_RISE]: {
+    name: { en: "Telok Blangah Rise" },
+    coordinates: { latitude: 1.2740334213, longitude: 103.824602457 },
+    area: Area.BUKIT_MERAH,
+  },
+  [Subzone.BMR_TELOK_BLANGAH_WAY]: {
+    name: { en: "Telok Blangah Way" },
+    coordinates: { latitude: 1.2773816094, longitude: 103.820474147 },
+    area: Area.BUKIT_MERAH,
+  },
+  [Subzone.BMR_TIONG_BAHRU]: {
+    name: { en: "Tiong Bahru" },
+    coordinates: { latitude: 1.28387953055, longitude: 103.831392759 },
+    area: Area.BUKIT_MERAH,
+  },
+  [Subzone.BMR_TIONG_BAHRU_STATION]: {
+    name: { en: "Tiong Bahru Station" },
+    coordinates: { latitude: 1.28402990546, longitude: 103.826826361 },
+    area: Area.BUKIT_MERAH,
   },
   [Subzone.CCK_CHOA_CHU_KANG_CENTRAL]: {
     name: { en: "Choa Chu Kang Central" },
