@@ -272,6 +272,51 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.34700992878, longitude: 103.731972099 },
     area: Area.JURONG_EAST,
   },
+  [Subzone.WDL_GREENWOOD_PARK]: {
+    name: { en: "Greenwood Park" },
+    coordinates: { latitude: 1.44729464999, longitude: 103.784869571 },
+    area: Area.WOODLANDS,
+  },
+  [Subzone.WDL_MIDVIEW]: {
+    name: { en: "Midview" },
+    coordinates: { latitude: 1.4398884999, longitude: 103.791531658 },
+    area: Area.WOODLANDS,
+  },
+  [Subzone.WDL_NORTH_COAST]: {
+    name: { en: "North Coast" },
+    coordinates: { latitude: 1.44754450135, longitude: 103.774187622 },
+    area: Area.WOODLANDS,
+  },
+  [Subzone.WDL_SENOKO_WEST]: {
+    name: { en: "Senoko West" },
+    coordinates: { latitude: 1.45117166719, longitude: 103.796669579 },
+    area: Area.WOODLANDS,
+  },
+  [Subzone.WDL_WOODGROVE]: {
+    name: { en: "Woodgrove" },
+    coordinates: { latitude: 1.42927937396, longitude: 103.778551911 },
+    area: Area.WOODLANDS,
+  },
+  [Subzone.WDL_WOODLANDS_EAST]: {
+    name: { en: "Woodlands East" },
+    coordinates: { latitude: 1.44124987799, longitude: 103.801927307 },
+    area: Area.WOODLANDS,
+  },
+  [Subzone.WDL_WOODLANDS_REGIONAL_CENTRE]: {
+    name: { en: "Woodlands Regional Centre" },
+    coordinates: { latitude: 1.43860198459, longitude: 103.784535653 },
+    area: Area.WOODLANDS,
+  },
+  [Subzone.WDL_WOODLANDS_SOUTH]: {
+    name: { en: "Woodlands South" },
+    coordinates: { latitude: 1.42950431375, longitude: 103.79386651 },
+    area: Area.WOODLANDS,
+  },
+  [Subzone.WDL_WOODLANDS_WEST]: {
+    name: { en: "Woodlands West" },
+    coordinates: { latitude: 1.437463649, longitude: 103.775651993 },
+    area: Area.WOODLANDS,
+  },
 };
 
 export default subzones;
