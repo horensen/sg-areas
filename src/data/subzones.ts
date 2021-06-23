@@ -272,6 +272,21 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.34700992878, longitude: 103.731972099 },
     area: Area.JURONG_EAST,
   },
+  [Subzone.MSM_BRAS_BASAH]: {
+    name: { en: "Bras Basah" },
+    coordinates: { latitude: 1.29624847896, longitude: 103.849430304 },
+    area: Area.MUSEUM,
+  },
+  [Subzone.MSM_DHOBY_GHAUT]: {
+    name: { en: "Dhoby Ghaut" },
+    coordinates: { latitude: 1.29884993481, longitude: 103.845180029 },
+    area: Area.MUSEUM,
+  },
+  [Subzone.MSM_FORT_CANNING]: {
+    name: { en: "Fort Canning" },
+    coordinates: { latitude: 1.29403259717, longitude: 103.846023722 },
+    area: Area.MUSEUM,
+  },
   [Subzone.TAM_SIMEI]: {
     name: { en: "Simei" },
     coordinates: { latitude: 1.34067417214, longitude: 103.954004608 },
