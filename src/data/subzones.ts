@@ -272,6 +272,31 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.34700992878, longitude: 103.731972099 },
     area: Area.JURONG_EAST,
   },
+  [Subzone.TAM_SIMEI]: {
+    name: { en: "Simei" },
+    coordinates: { latitude: 1.34067417214, longitude: 103.954004608 },
+    area: Area.TAMPINES,
+  },
+  [Subzone.TAM_TAMPINES_EAST]: {
+    name: { en: "Tampines East" },
+    coordinates: { latitude: 1.35443512161, longitude: 103.951233066 },
+    area: Area.TAMPINES,
+  },
+  [Subzone.TAM_TAMPINES_NORTH]: {
+    name: { en: "Tampines North" },
+    coordinates: { latitude: 1.36624467651, longitude: 103.939025652 },
+    area: Area.TAMPINES,
+  },
+  [Subzone.TAM_TAMPINES_WEST]: {
+    name: { en: "Tampines West" },
+    coordinates: { latitude: 1.34852869264, longitude: 103.93594924 },
+    area: Area.TAMPINES,
+  },
+  [Subzone.TAM_XILIN]: {
+    name: { en: "Xilin" },
+    coordinates: { latitude: 1.32924702779, longitude: 103.969095689 },
+    area: Area.TAMPINES,
+  },
   [Subzone.WDL_GREENWOOD_PARK]: {
     name: { en: "Greenwood Park" },
     coordinates: { latitude: 1.44729464999, longitude: 103.784869571 },
