@@ -288,39 +288,59 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     area: Area.MUSEUM,
   },
   [Subzone.PGL_CONEY_ISLAND]: {
-    name: { en: 'Coney Island' },
+    name: { en: "Coney Island" },
     coordinates: { latitude: 1.40832722125, longitude: 103.92253451 },
     area: Area.PUNGGOL,
   },
   [Subzone.PGL_MATILDA]: {
-    name: { en: 'Matilda' },
+    name: { en: "Matilda" },
     coordinates: { latitude: 1.40269296974, longitude: 103.897027947 },
     area: Area.PUNGGOL,
   },
   [Subzone.PGL_NORTHSORE]: {
-    name: { en: 'Northshore' },
+    name: { en: "Northshore" },
     coordinates: { latitude: 1.41620831406, longitude: 103.906729216 },
     area: Area.PUNGGOL,
   },
   [Subzone.PGL_PUNGGOL_CANAL]: {
-    name: { en: 'Punggol Canal' },
+    name: { en: "Punggol Canal" },
     coordinates: { latitude: 1.40667418608, longitude: 103.917864906 },
     area: Area.PUNGGOL,
   },
   [Subzone.PGL_PUNGGOL_FIELD]: {
-    name: { en: 'Punggol Field' },
+    name: { en: "Punggol Field" },
     coordinates: { latitude: 1.39472343607, longitude: 103.911260449 },
     area: Area.PUNGGOL,
   },
   [Subzone.PGL_PUNGGOL_TOWN_CENTRE]: {
-    name: { en: 'Punggol Town Centre' },
+    name: { en: "Punggol Town Centre" },
     coordinates: { latitude: 1.40901648015, longitude: 103.901632398 },
     area: Area.PUNGGOL,
   },
   [Subzone.PGL_WATERWAY_EAST]: {
-    name: { en: 'Waterway East' },
+    name: { en: "Waterway East" },
     coordinates: { latitude: 1.40124498134, longitude: 103.914759058 },
     area: Area.PUNGGOL,
+  },
+  [Subzone.SLT_PULAR_PUNGGOL_BARAT]: {
+    name: { en: "Pulau Punggol Barat" },
+    coordinates: { latitude: 1.4251691934, longitude: 103.878698312 },
+    area: Area.SELETAR,
+  },
+  [Subzone.SLT_PULAU_PUNGGOL_TIMOR]: {
+    name: { en: "Pulau Punggol Timor" },
+    coordinates: { latitude: 1.41904061128, longitude: 103.8910875 },
+    area: Area.SELETAR,
+  },
+  [Subzone.SLT_SELETAR]: {
+    name: { en: "Seletar" },
+    coordinates: { latitude: 1.40899508421, longitude: 103.881586529 },
+    area: Area.SELETAR,
+  },
+  [Subzone.SLT_SELETAR_AEROSPACE_PARK]: {
+    name: { en: "Seletar Aerospace Park" },
+    coordinates: { latitude: 1.41235799025, longitude: 103.866482994 },
+    area: Area.SELETAR,
   },
   [Subzone.TAM_SIMEI]: {
     name: { en: "Simei" },
