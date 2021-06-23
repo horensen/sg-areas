@@ -412,6 +412,11 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.437463649, longitude: 103.775651993 },
     area: Area.WOODLANDS,
   },
+  [Subzone.WWC_WESTERN_WATER_CATCHMENT]: {
+    name: { en: "Western Water Catchment" },
+    coordinates: { latitude: 1.38212976818, longitude: 103.689729797 },
+    area: Area.WESTERN_WATER_CATCHMENT,
+  },
 };
 
 export default subzones;

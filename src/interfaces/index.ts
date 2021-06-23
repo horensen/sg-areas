@@ -162,6 +162,7 @@ export enum Subzone {
   WDL_WOODLANDS_REGIONAL_CENTRE = "WDL_WRC",
   WDL_WOODLANDS_SOUTH = "WDL_WOS",
   WDL_WOODLANDS_WEST = "WDL_WOW",
+  WWC_WESTERN_WATER_CATCHMENT = "WWC_WWC"
 }
 
 export interface LocationDetails {
