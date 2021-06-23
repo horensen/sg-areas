@@ -222,6 +222,51 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.40068278223, longitude: 103.747936375 },
     area: Area.CHOA_CHU_KANG,
   },
+  [Subzone.CLE_CLEMENTI_CENTRAL]: {
+    name: { en: "Clementi Central" },
+    coordinates: { latitude: 1.31206889576, longitude: 103.763083039 },
+    area: Area.CLEMENTI,
+  },
+  [Subzone.CLE_CLEMENTI_NORTH]: {
+    name: { en: "Clementi North" },
+    coordinates: { latitude: 1.31804940924, longitude: 103.766944797 },
+    area: Area.CLEMENTI,
+  },
+  [Subzone.CLE_CLEMENTI_WEST]: {
+    name: { en: "Clementi West" },
+    coordinates: { latitude: 1.30252192742, longitude: 103.763091392 },
+    area: Area.CLEMENTI,
+  },
+  [Subzone.CLE_CLEMENTI_WOODS]: {
+    name: { en: "Clementi Woods" },
+    coordinates: { latitude: 1.30408534204, longitude: 103.768301552 },
+    area: Area.CLEMENTI,
+  },
+  [Subzone.CLE_FABER]: {
+    name: { en: "Faber" },
+    coordinates: { latitude: 1.32195636355, longitude: 103.756848658 },
+    area: Area.CLEMENTI,
+  },
+  [Subzone.CLE_PANDAN]: {
+    name: { en: "Pandan" },
+    coordinates: { latitude: 1.30807010034, longitude: 103.754503395 },
+    area: Area.CLEMENTI,
+  },
+  [Subzone.CLE_SUNSET_WAY]: {
+    name: { en: "Sunset Way" },
+    coordinates: { latitude: 1.32628486112, longitude: 103.768670416 },
+    area: Area.CLEMENTI,
+  },
+  [Subzone.CLE_TOH_TUCK]: {
+    name: { en: "Toh Tuck" },
+    coordinates: { latitude: 1.33175406177, longitude: 103.756340353 },
+    area: Area.CLEMENTI,
+  },
+  [Subzone.CLE_WEST_COAST]: {
+    name: { en: "West Coast" },
+    coordinates: { latitude: 1.31627470295, longitude: 103.755088634 },
+    area: Area.CLEMENTI,
+  },
   [Subzone.JUR_INTERNATIONAL_BUSINESS_PARK]: {
     name: { en: "International Business Park" },
     coordinates: { latitude: 1.3263416163, longitude: 103.748087124 },
