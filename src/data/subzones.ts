@@ -427,6 +427,21 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.40124498134, longitude: 103.914759058 },
     area: Area.PUNGGOL,
   },
+  [Subzone.SGR_BOAT_QUAY]: {
+    name: { en: "Boat Quay" },
+    coordinates: { latitude: 1.28735460113, longitude: 103.848189061 },
+    area: Area.SINGAPORE_RIVER,
+  },
+  [Subzone.SGR_CLARKE_QUAY]: {
+    name: { en: "Clarke Quay" },
+    coordinates: { latitude: 1.28959933636, longitude: 103.844579166 },
+    area: Area.SINGAPORE_RIVER,
+  },
+  [Subzone.SGR_ROBERTSON_QUAY]: {
+    name: { en: "Robertson Quay" },
+    coordinates: { latitude: 1.29032908346, longitude: 103.836778913 },
+    area: Area.SINGAPORE_RIVER,
+  },
   [Subzone.SLT_PULAR_PUNGGOL_BARAT]: {
     name: { en: "Pulau Punggol Barat" },
     coordinates: { latitude: 1.4251691934, longitude: 103.878698312 },
