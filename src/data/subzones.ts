@@ -222,6 +222,11 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.40068278223, longitude: 103.747936375 },
     area: Area.CHOA_CHU_KANG,
   },
+  [Subzone.CGB_CHANGI_BAY]: {
+    name: { en: "Changi Bay" },
+    coordinates: { latitude: 1.32237731385, longitude: 104.025424874 },
+    area: Area.CHANGI_BAY,
+  },
   [Subzone.CHG_CHANGI_AIRPORT]: {
     name: { en: "Changi Airport" },
     coordinates: { latitude: 1.34726454633, longitude: 104.001006614 },
