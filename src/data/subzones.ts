@@ -267,6 +267,11 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.31627470295, longitude: 103.755088634 },
     area: Area.CLEMENTI,
   },
+  [Subzone.CWC_CENTRAL_WATER_CATCHMENT]: {
+    name: { en: "Central Water Catchment" },
+    coordinates: { latitude: 1.37665502853, longitude: 103.801189262 },
+    area: Area.CENTRAL_WATER_CATCHMENT,
+  },
   [Subzone.JUR_INTERNATIONAL_BUSINESS_PARK]: {
     name: { en: "International Business Park" },
     coordinates: { latitude: 1.3263416163, longitude: 103.748087124 },
