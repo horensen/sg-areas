@@ -412,6 +412,36 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.32924702779, longitude: 103.969095689 },
     area: Area.TAMPINES,
   },
+  [Subzone.TUA_TENGEH]: {
+    name: { en: "Tengeh" },
+    coordinates: { latitude: 1.33847647671, longitude: 103.650248643 },
+    area: Area.TUAS,
+  },
+  [Subzone.TUA_TUAS_BAY]: {
+    name: { en: "Tuas Bay" },
+    coordinates: { latitude: 1.3183378374, longitude: 103.643914659 },
+    area: Area.TUAS,
+  },
+  [Subzone.TUA_TUAS_NORTH]: {
+    name: { en: "Tuas North" },
+    coordinates: { latitude: 1.32674591798, longitude: 103.651245061 },
+    area: Area.TUAS,
+  },
+  [Subzone.TUA_TUAS_PROMENADE]: {
+    name: { en: "Tuas Promenade" },
+    coordinates: { latitude: 1.33198543529, longitude: 103.634908725 },
+    area: Area.TUAS,
+  },
+  [Subzone.TUA_TUAS_VIEW]: {
+    name: { en: "Tuas View" },
+    coordinates: { latitude: 1.30115452842, longitude: 103.633425282 },
+    area: Area.TUAS,
+  },
+  [Subzone.TUA_TUAS_VIEW_EXTENSION]: {
+    name: { en: "Tuas View Extension" },
+    coordinates: { latitude: 1.26958296064, longitude: 103.620363085 },
+    area: Area.TUAS,
+  },
   [Subzone.WDL_GREENWOOD_PARK]: {
     name: { en: "Greenwood Park" },
     coordinates: { latitude: 1.44729464999, longitude: 103.784869571 },
