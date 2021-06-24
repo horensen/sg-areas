@@ -222,6 +222,21 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.40068278223, longitude: 103.747936375 },
     area: Area.CHOA_CHU_KANG,
   },
+  [Subzone.CHG_CHANGI_AIRPORT]: {
+    name: { en: "Changi Airport" },
+    coordinates: { latitude: 1.34726454633, longitude: 104.001006614 },
+    area: Area.CHANGI,
+  },
+  [Subzone.CHG_CHANGI_POINT]: {
+    name: { en: "Changi Point" },
+    coordinates: { latitude: 1.39031870195, longitude: 103.982515007 },
+    area: Area.CHANGI,
+  },
+  [Subzone.CHG_CHANGI_WEST]: {
+    name: { en: "Changi West" },
+    coordinates: { latitude: 1.36521738787, longitude: 103.978751245 },
+    area: Area.CHANGI,
+  },
   [Subzone.CLE_CLEMENTI_CENTRAL]: {
     name: { en: "Clementi Central" },
     coordinates: { latitude: 1.31206889576, longitude: 103.763083039 },
