@@ -427,6 +427,46 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.40124498134, longitude: 103.914759058 },
     area: Area.PUNGGOL,
   },
+  [Subzone.PSR_FLORA_DRIVE]: {
+    name: { en: "Flora Drive" },
+    coordinates: { latitude: 1.35930124931, longitude: 103.966321885 },
+    area: Area.PASIR_RIS,
+  },
+  [Subzone.PSR_LOYANG_EAST]: {
+    name: { en: "Loyang East" },
+    coordinates: { latitude: 1.36797860882, longitude: 103.973426401 },
+    area: Area.PASIR_RIS,
+  },
+  [Subzone.PSR_LOYANG_WEST]: {
+    name: { en: "Loyang West" },
+    coordinates: { latitude: 1.37701041937, longitude: 103.970753706 },
+    area: Area.PASIR_RIS,
+  },
+  [Subzone.PSR_PASIR_RIS_CENTRAL]: {
+    name: { en: "Pasir Ris Central" },
+    coordinates: { latitude: 1.37206455003, longitude: 103.947939358 },
+    area: Area.PASIR_RIS,
+  },
+  [Subzone.PSR_PASIR_RIS_DRIVE]: {
+    name: { en: "Pasir Ris Drive" },
+    coordinates: { latitude: 1.3688667892, longitude: 103.959409933 },
+    area: Area.PASIR_RIS,
+  },
+  [Subzone.PSR_PASIR_RIS_PARK]: {
+    name: { en: "Pasir Ris Park" },
+    coordinates: { latitude: 1.3786815648, longitude: 103.955844457 },
+    area: Area.PASIR_RIS,
+  },
+  [Subzone.PSR_PASIR_RIS_WAFER_FAB_PARK]: {
+    name: { en: "Pasir Ris Wafer Fab Park" },
+    coordinates: { latitude: 1.38884074018, longitude: 103.928680044 },
+    area: Area.PASIR_RIS,
+  },
+  [Subzone.PSR_PASIR_RIS_WEST]: {
+    name: { en: "Pasir Ris West" },
+    coordinates: { latitude: 1.37928604681, longitude: 103.939812188 },
+    area: Area.PASIR_RIS,
+  },
   [Subzone.SGR_BOAT_QUAY]: {
     name: { en: "Boat Quay" },
     coordinates: { latitude: 1.28735460113, longitude: 103.848189061 },
