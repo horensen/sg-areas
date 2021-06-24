@@ -342,6 +342,11 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.34700992878, longitude: 103.731972099 },
     area: Area.JURONG_EAST,
   },
+  [Subzone.LCK_LIM_CHU_KANG]: {
+    name: { en: "Lim Chu Kang" },
+    coordinates: { latitude: 1.43064278529, longitude: 103.719285508 },
+    area: Area.LIM_CHU_KANG,
+  },
   [Subzone.MSM_BRAS_BASAH]: {
     name: { en: "Bras Basah" },
     coordinates: { latitude: 1.29624847896, longitude: 103.849430304 },
