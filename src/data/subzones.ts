@@ -357,6 +357,36 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.29403259717, longitude: 103.846023722 },
     area: Area.MUSEUM,
   },
+  [Subzone.NEW_CAIRNHILL]: {
+    name: { en: "Cairnhill" },
+    coordinates: { latitude: 1.30664959638, longitude: 103.837655573 },
+    area: Area.NEWTON,
+  },
+  [Subzone.NEW_GOODWOOD_PARK]: {
+    name: { en: "Goodwood Park" },
+    coordinates: { latitude: 1.31358675572, longitude: 103.834296927 },
+    area: Area.NEWTON,
+  },
+  [Subzone.NEW_ISTANA_NEGARA]: {
+    name: { en: "Istana Negara" },
+    coordinates: { latitude: 1.30533912904, longitude: 103.844342208 },
+    area: Area.NEWTON,
+  },
+  [Subzone.NEW_MONKS_HILL]: {
+    name: { en: "Monk's Hill" },
+    coordinates: { latitude: 1.30909702919, longitude: 103.84172963 },
+    area: Area.NEWTON,
+  },
+  [Subzone.NEW_NEWTON_CIRCUS]: {
+    name: { en: "Newton Circus" },
+    coordinates: { latitude: 1.31194399911, longitude: 103.838416264 },
+    area: Area.NEWTON,
+  },
+  [Subzone.NEW_ORANGE_GROVE]: {
+    name: { en: "Orange Grove" },
+    coordinates: { latitude: 1.31005518289, longitude: 103.830337053 },
+    area: Area.NEWTON,
+  },
   [Subzone.PGL_CONEY_ISLAND]: {
     name: { en: "Coney Island" },
     coordinates: { latitude: 1.40832722125, longitude: 103.92253451 },
