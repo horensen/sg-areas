@@ -462,6 +462,51 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.38212976818, longitude: 103.689729797 },
     area: Area.WESTERN_WATER_CATCHMENT,
   },
+  [Subzone.YIS_KHATIB]: {
+    name: { en: "Khatib" },
+    coordinates: { latitude: 1.41799942647, longitude: 103.828651632 },
+    area: Area.YISHUN,
+  },
+  [Subzone.YIS_LOWER_SELETAR]: {
+    name: { en: "Lower Seletar" },
+    coordinates: { latitude: 1.40905846684, longitude: 103.846236849 },
+    area: Area.YISHUN,
+  },
+  [Subzone.YIS_NEE_SOON]: {
+    name: { en: "Nee Soon" },
+    coordinates: { latitude: 1.40751628058, longitude: 103.814643513 },
+    area: Area.YISHUN,
+  },
+  [Subzone.YIS_NORTHLAND]: {
+    name: { en: "Northland" },
+    coordinates: { latitude: 1.43809471362, longitude: 103.837996503 },
+    area: Area.YISHUN,
+  },
+  [Subzone.YIS_SPRINGLEAF]: {
+    name: { en: "Springleaf" },
+    coordinates: { latitude: 1.40140910975, longitude: 103.824060693 },
+    area: Area.YISHUN,
+  },
+  [Subzone.YIS_YISHUN_CENTRAL]: {
+    name: { en: "Yishun Central" },
+    coordinates: { latitude: 1.42670524631, longitude: 103.837659412 },
+    area: Area.YISHUN,
+  },
+  [Subzone.YIS_YISHUN_EAST]: {
+    name: { en: "Yishun East" },
+    coordinates: { latitude: 1.42790245918, longitude: 103.846587187 },
+    area: Area.YISHUN,
+  },
+  [Subzone.YIS_YISHUN_SOUTH]: {
+    name: { en: "Yishun South" },
+    coordinates: { latitude: 1.41846051722, longitude: 103.837816444 },
+    area: Area.YISHUN,
+  },
+  [Subzone.YIS_YISHUN_WEST]: {
+    name: { en: "Yishun West" },
+    coordinates: { latitude: 1.4311390462, longitude: 103.831011589 },
+    area: Area.YISHUN,
+  },
 };
 
 export default subzones;
