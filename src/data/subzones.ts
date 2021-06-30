@@ -557,6 +557,11 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.41235799025, longitude: 103.866482994 },
     area: Area.SELETAR,
   },
+  [Subzone.STV_STRAITS_VIEW]: {
+    name: { en: "Straits View" },
+    coordinates: { latitude: 1.27125165978, longitude: 103.858773194 },
+    area: Area.STRAITS_VIEW
+  },
   [Subzone.TAM_SIMEI]: {
     name: { en: "Simei" },
     coordinates: { latitude: 1.34067417214, longitude: 103.954004608 },
