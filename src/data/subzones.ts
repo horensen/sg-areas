@@ -447,6 +447,21 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.31005518289, longitude: 103.830337053 },
     area: Area.NEWTON,
   },
+  [Subzone.ORC_BOULEVARD]: {
+    name: { en: "Boulevard" },
+    coordinates: { latitude: 1.30537276782, longitude: 103.83257213 },
+    area: Area.ORCHARD,
+  },
+  [Subzone.ORC_SOMERSET]: {
+    name: { en: "Somerset" },
+    coordinates: { latitude: 1.30062480181, longitude: 103.838663299 },
+    area: Area.ORCHARD,
+  },
+  [Subzone.ORC_TANGLIN]: {
+    name: { en: "Tanglin" },
+    coordinates: { latitude: 1.30481861577, longitude: 103.825796628 },
+    area: Area.ORCHARD,
+  },
   [Subzone.PGL_CONEY_ISLAND]: {
     name: { en: "Coney Island" },
     coordinates: { latitude: 1.40832722125, longitude: 103.92253451 },
@@ -560,7 +575,7 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
   [Subzone.STV_STRAITS_VIEW]: {
     name: { en: "Straits View" },
     coordinates: { latitude: 1.27125165978, longitude: 103.858773194 },
-    area: Area.STRAITS_VIEW
+    area: Area.STRAITS_VIEW,
   },
   [Subzone.TAM_SIMEI]: {
     name: { en: "Simei" },
