@@ -107,6 +107,46 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.36271213917, longitude: 103.748003786 },
     area: Area.BUKIT_BATOK,
   },
+  [Subzone.BDK_BAYSHORE]: {
+    name: { en: "Bayshore" },
+    coordinates: { latitude: 1.31384026864, longitude: 103.948650781 },
+    area: Area.BEDOK,
+  },
+  [Subzone.BDK_BEDOK_NORTH]: {
+    name: { en: "Bedok North" },
+    coordinates: { latitude: 1.33042705336, longitude: 103.936016365 },
+    area: Area.BEDOK,
+  },
+  [Subzone.BDK_BEDOK_RESERVOIR]: {
+    name: { en: "Bedok Reservoir" },
+    coordinates: { latitude: 1.34004072425, longitude: 103.926329464 },
+    area: Area.BEDOK,
+  },
+  [Subzone.BDK_BEDOK_SOUTH]: {
+    name: { en: "Bedok South" },
+    coordinates: { latitude: 1.32144278127, longitude: 103.944554127 },
+    area: Area.BEDOK,
+  },
+  [Subzone.BDK_FRANKEL]: {
+    name: { en: "Frankel" },
+    coordinates: { latitude: 1.31477899132, longitude: 103.920428972 },
+    area: Area.BEDOK,
+  },
+  [Subzone.BDK_KAKI_BUKIT]: {
+    name: { en: "Kaki Bukit" },
+    coordinates: { latitude: 1.33557766727, longitude: 103.909564735 },
+    area: Area.BEDOK,
+  },
+  [Subzone.BDK_KEMBANGAN]: {
+    name: { en: "Kembangan" },
+    coordinates: { latitude: 1.32480584111, longitude: 103.915614422 },
+    area: Area.BEDOK,
+  },
+  [Subzone.BDK_SIGLAP]: {
+    name: { en: "Siglap" },
+    coordinates: { latitude: 1.30659076378, longitude: 103.92708616 },
+    area: Area.BEDOK,
+  },
   [Subzone.BMR_ALEXANDRA_HILL]: {
     name: { en: "Alexandra Hill" },
     coordinates: { latitude: 1.28750582278, longitude: 103.809586514 },
