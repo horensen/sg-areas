@@ -147,6 +147,21 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.30659076378, longitude: 103.92708616 },
     area: Area.BEDOK,
   },
+  [Subzone.BSH_BISHAN_EAST]: {
+    name: { en: "Bishan East" },
+    coordinates: { latitude: 1.34982390798, longitude: 103.853014262 },
+    area: Area.BISHAN,
+  },
+  [Subzone.BSH_MARYMOUNT]: {
+    name: { en: "Marymount" },
+    coordinates: { latitude: 1.35435998733, longitude: 103.844888371 },
+    area: Area.BISHAN,
+  },
+  [Subzone.BSH_UPPER_THOMSON]: {
+    name: { en: "Upper Thomson" },
+    coordinates: { latitude: 1.35766663237, longitude: 103.832282415 },
+    area: Area.BISHAN,
+  },
   [Subzone.BMR_ALEXANDRA_HILL]: {
     name: { en: "Alexandra Hill" },
     coordinates: { latitude: 1.28750582278, longitude: 103.809586514 },
