@@ -442,6 +442,66 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.37665502853, longitude: 103.801189262 },
     area: Area.CENTRAL_WATER_CATCHMENT,
   },
+  [Subzone.DTC_ANSON]: {
+    name: { en: "Anson" },
+    coordinates: { latitude: 1.27371791279, longitude: 103.84360996 },
+    area: Area.DOWNTOWN_CORE,
+  },
+  [Subzone.DTC_BAYFRONT]: {
+    name: { en: "Bayfront" },
+    coordinates: { latitude: 1.28333472525, longitude: 103.858533762 },
+    area: Area.DOWNTOWN_CORE,
+  },
+  [Subzone.DTC_BUGIS]: {
+    name: { en: "Bugis" },
+    coordinates: { latitude: 1.29914573413, longitude: 103.856036798 },
+    area: Area.DOWNTOWN_CORE,
+  },
+  [Subzone.DTC_CECIL]: {
+    name: { en: "Cecil" },
+    coordinates: { latitude: 1.27864260763, longitude: 103.848865061 },
+    area: Area.DOWNTOWN_CORE,
+  },
+  [Subzone.DTC_CENTRAL]: {
+    name: { en: "Central" },
+    coordinates: { latitude: 1.27567365904, longitude: 103.852420001 },
+    area: Area.DOWNTOWN_CORE,
+  },
+  [Subzone.DTC_CITY_HALL]: {
+    name: { en: "City Hall" },
+    coordinates: { latitude: 1.29243576615, longitude: 103.853168045 },
+    area: Area.DOWNTOWN_CORE,
+  },
+  [Subzone.DTC_CLIFFORD_PIER]: {
+    name: { en: "Clifford Pier" },
+    coordinates: { latitude: 1.28556190581, longitude: 103.854699375 },
+    area: Area.DOWNTOWN_CORE,
+  },
+  [Subzone.DTC_MARINA_CENTRE]: {
+    name: { en: "Marina Centre" },
+    coordinates: { latitude: 1.29185075136, longitude: 103.859718632 },
+    area: Area.DOWNTOWN_CORE,
+  },
+  [Subzone.DTC_MAXWELL]: {
+    name: { en: "Maxwell" },
+    coordinates: { latitude: 1.27941518164, longitude: 103.845826655 },
+    area: Area.DOWNTOWN_CORE,
+  },
+  [Subzone.DTC_PHILLIP]: {
+    name: { en: "Phillip" },
+    coordinates: { latitude: 1.28527684331, longitude: 103.848654176 },
+    area: Area.DOWNTOWN_CORE,
+  },
+  [Subzone.DTC_RAFFLES_PLACE]: {
+    name: { en: "Raffles Place" },
+    coordinates: { latitude: 1.28372000024, longitude: 103.851007382 },
+    area: Area.DOWNTOWN_CORE,
+  },
+  [Subzone.DTC_TANJONG_PAGAR]: {
+    name: { en: "Tanjong Pagar" },
+    coordinates: { latitude: 1.27588451919, longitude: 103.845878602 },
+    area: Area.DOWNTOWN_CORE,
+  },
   [Subzone.GLG_ALJUNIED]: {
     name: { en: "Aljunied" },
     coordinates: { latitude: 1.31445048951, longitude: 103.883570673 },
