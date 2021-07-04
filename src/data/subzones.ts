@@ -247,6 +247,26 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.28402990546, longitude: 103.826826361 },
     area: Area.BUKIT_MERAH,
   },
+  [Subzone.BNL_LIU_FANG]: {
+    name: { en: "Liu Fang" },
+    coordinates: { latitude: 1.31825277789, longitude: 103.708232231 },
+    area: Area.BOON_LAY,
+  },
+  [Subzone.BNL_SAMULUN]: {
+    name: { en: "Samulun" },
+    coordinates: { latitude: 1.30806059784, longitude: 103.70229687 },
+    area: Area.BOON_LAY,
+  },
+  [Subzone.BNL_SHIPYARD]: {
+    name: { en: "Shipyard" },
+    coordinates: { latitude: 1.30749729717, longitude: 103.689282828 },
+    area: Area.BOON_LAY,
+  },
+  [Subzone.BNL_TUKANG]: {
+    name: { en: "Tukang" },
+    coordinates: { latitude: 1.32565040976, longitude: 103.709250507 },
+    area: Area.BOON_LAY,
+  },
   [Subzone.CCK_CHOA_CHU_KANG_CENTRAL]: {
     name: { en: "Choa Chu Kang Central" },
     coordinates: { latitude: 1.38500877, longitude: 103.747645425 },
