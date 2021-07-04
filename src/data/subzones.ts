@@ -877,6 +877,81 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.37928604681, longitude: 103.939812188 },
     area: Area.PASIR_RIS,
   },
+  [Subzone.QUE_COMMONWEALTH]: {
+    name: { en: "Commonwealth" },
+    coordinates: { latitude: 1.30494716445, longitude: 103.799881598 },
+    area: Area.QUEENSTOWN,
+  },
+  [Subzone.QUE_DOVER]: {
+    name: { en: "Dover" },
+    coordinates: { latitude: 1.30386658554, longitude: 103.779545368 },
+    area: Area.QUEENSTOWN,
+  },
+  [Subzone.QUE_GHIM_MOH]: {
+    name: { en: "Ghim Moh" },
+    coordinates: { latitude: 1.31091545845, longitude: 103.78748531 },
+    area: Area.QUEENSTOWN,
+  },
+  [Subzone.QUE_HOLLAND_DRIVE]: {
+    name: { en: "Holland Drive" },
+    coordinates: { latitude: 1.30833666767, longitude: 103.794783785 },
+    area: Area.QUEENSTOWN,
+  },
+  [Subzone.QUE_KENT_RIDGE]: {
+    name: { en: "Kent Ridge" },
+    coordinates: { latitude: 1.28509987375, longitude: 103.792568365 },
+    area: Area.QUEENSTOWN,
+  },
+  [Subzone.QUE_MARGARET_DRIVE]: {
+    name: { en: "Margaret Drive" },
+    coordinates: { latitude: 1.29722401448, longitude: 103.80818415 },
+    area: Area.QUEENSTOWN,
+  },
+  [Subzone.QUE_MEI_CHIN]: {
+    name: { en: "Mei Chin" },
+    coordinates: { latitude: 1.29347230246, longitude: 103.803227007 },
+    area: Area.QUEENSTOWN,
+  },
+  [Subzone.QUE_NATIONAL_UNIVERSITY_OF_SINGAPORE]: {
+    name: { en: "National University Of Singapore" },
+    coordinates: { latitude: 1.29599490429, longitude: 103.776610819 },
+    area: Area.QUEENSTOWN,
+  },
+  [Subzone.QUE_ONENORTH]: {
+    name: { en: "OneNorth" },
+    coordinates: { latitude: 1.29822028567, longitude: 103.791080198 },
+    area: Area.QUEENSTOWN,
+  },
+  [Subzone.QUE_PASIR_PANJANG_1]: {
+    name: { en: "Pasir Panjang 1" },
+    coordinates: { latitude: 1.28662268778, longitude: 103.780101074 },
+    area: Area.QUEENSTOWN,
+  },
+  [Subzone.QUE_PASIR_PANJANG_2]: {
+    name: { en: "Pasir Panjang 2" },
+    coordinates: { latitude: 1.27672379058, longitude: 103.796136484 },
+    area: Area.QUEENSTOWN,
+  },
+  [Subzone.QUE_PORT]: {
+    name: { en: "Port" },
+    coordinates: { latitude: 1.28236556525, longitude: 103.77521694 },
+    area: Area.QUEENSTOWN,
+  },
+  [Subzone.QUE_QUEENSWAY]: {
+    name: { en: "Queensway" },
+    coordinates: { latitude: 1.28852575758, longitude: 103.798889282 },
+    area: Area.QUEENSTOWN,
+  },
+  [Subzone.QUE_SINGAPORE_POLYTECHNIC]: {
+    name: { en: "Singapore Polytechnic" },
+    coordinates: { latitude: 1.31134897434, longitude: 103.777175003 },
+    area: Area.QUEENSTOWN,
+  },
+  [Subzone.QUE_TANGLIN_HALT]: {
+    name: { en: "Tanglin Halt" },
+    coordinates: { latitude: 1.30126468921, longitude: 103.796706811 },
+    area: Area.QUEENSTOWN,
+  },
   [Subzone.SGR_BOAT_QUAY]: {
     name: { en: "Boat Quay" },
     coordinates: { latitude: 1.28735460113, longitude: 103.848189061 },
