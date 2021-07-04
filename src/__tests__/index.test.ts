@@ -45,6 +45,6 @@ describe("Getting planning areas", () => {
 describe("Getting subzones", () => {
   it("should return all subzones", () => {
     const allSubzones = getSubzones();
-    expect(Object.keys(allSubzones).length).toBe(181);
+    expect(Object.keys(allSubzones).length).toBe(191);
   });
 });

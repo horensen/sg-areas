@@ -527,6 +527,56 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.32736777215, longitude: 103.885204255 },
     area: Area.GEYLANG,
   },
+  [Subzone.HGN_DEFU_INDUSTRIAL_PARK]: {
+    name: { en: 'Defu Industrial Park' },
+    coordinates: { latitude: 1.3579169465, longitude: 103.895781293 },
+    area: Area.HOUGANG,
+  },
+  [Subzone.HGN_HOUGANG_CENTRAL]: {
+    name: { en: 'Hougang Central' },
+    coordinates: { latitude: 1.36966866631, longitude: 103.891462363 },
+    area: Area.HOUGANG,
+  },
+  [Subzone.HGN_HOUGANG_EAST]: {
+    name: { en: 'Hougang East' },
+    coordinates: { latitude: 1.37632272674, longitude: 103.897368843 },
+    area: Area.HOUGANG,
+  },
+  [Subzone.HGN_HOUGANG_WEST]: {
+    name: { en: 'Hougang West' },
+    coordinates: { latitude: 1.3732012403, longitude: 103.88682874 },
+    area: Area.HOUGANG,
+  },
+  [Subzone.HGN_KANGKAR]: {
+    name: { en: 'Kangkar' },
+    coordinates: { latitude: 1.36962095862, longitude: 103.898217285 },
+    area: Area.HOUGANG,
+  },
+  [Subzone.HGN_KOVAN]: {
+    name: { en: 'Kovan' },
+    coordinates: { latitude: 1.362930314, longitude: 103.88068021 },
+    area: Area.HOUGANG,
+  },
+  [Subzone.HGN_LORONG_AH_SOO]: {
+    name: { en: 'Lorong Ah Soo' },
+    coordinates: { latitude: 1.35683069959, longitude: 103.886606363 },
+    area: Area.HOUGANG,
+  },
+  [Subzone.HGN_LORONG_HALUS]: {
+    name: { en: 'Lorong Halus' },
+    coordinates: { latitude: 1.36962168481, longitude: 103.904038357 },
+    area: Area.HOUGANG,
+  },
+  [Subzone.HGN_TAI_SENG]: {
+    name: { en: 'Tai Seng' },
+    coordinates: { latitude: 1.34377153684, longitude: 103.887618997 },
+    area: Area.HOUGANG,
+  },
+  [Subzone.HGN_TRAFALGAR]: {
+    name: { en: 'Trafalgar' },
+    coordinates: { latitude: 1.38106569991, longitude: 103.881405985 },
+    area: Area.HOUGANG,
+  },
   [Subzone.JUR_INTERNATIONAL_BUSINESS_PARK]: {
     name: { en: "International Business Park" },
     coordinates: { latitude: 1.3263416163, longitude: 103.748087124 },
