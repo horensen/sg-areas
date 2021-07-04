@@ -715,7 +715,7 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
   [Subzone.KAL_TANJONG_RHU]: {
     name: { en: "Tanjong Rhu" },
     coordinates: { latitude: 1.30059104578, longitude: 103.875910706 },
-    area: Area.KALLANG
+    area: Area.KALLANG,
   },
   [Subzone.JUW_TAMAN_JURONG]: {
     name: { en: "Tanjong Rhu" },
@@ -726,6 +726,21 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     name: { en: "Lim Chu Kang" },
     coordinates: { latitude: 1.43064278529, longitude: 103.719285508 },
     area: Area.LIM_CHU_KANG,
+  },
+  [Subzone.MND_MANDAI_EAST]: {
+    name: { en: "Mandai East" },
+    coordinates: { latitude: 1.42678141142, longitude: 103.813003878 },
+    area: Area.MANDAI,
+  },
+  [Subzone.MND_MANDAI_ESTATE]: {
+    name: { en: "Mandai Estate" },
+    coordinates: { latitude: 1.42656167552, longitude: 103.825075778 },
+    area: Area.MANDAI,
+  },
+  [Subzone.MND_MANDAI_WEST]: {
+    name: { en: "Mandai West" },
+    coordinates: { latitude: 1.41831686396, longitude: 103.784337179 },
+    area: Area.MANDAI,
   },
   [Subzone.MSM_BRAS_BASAH]: {
     name: { en: "Bras Basah" },
