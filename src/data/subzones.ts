@@ -672,6 +672,56 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.34455428242, longitude: 103.694878698 },
     area: Area.JURONG_WEST,
   },
+  [Subzone.KAL_BENDEMEER]: {
+    name: { en: "Bendemeer" },
+    coordinates: { latitude: 1.32220227252, longitude: 103.861856238 },
+    area: Area.KALLANG,
+  },
+  [Subzone.KAL_BOON_KENG]: {
+    name: { en: "Boon Keng" },
+    coordinates: { latitude: 1.31488415692, longitude: 103.872300577 },
+    area: Area.KALLANG,
+  },
+  [Subzone.KAL_CRAWFORD]: {
+    name: { en: "Crawford" },
+    coordinates: { latitude: 1.3007628619, longitude: 103.863841179 },
+    area: Area.KALLANG,
+  },
+  [Subzone.KAL_GEYLANG_BAHRU]: {
+    name: { en: "Geylang Bahru" },
+    coordinates: { latitude: 1.3216390137, longitude: 103.870249655 },
+    area: Area.KALLANG,
+  },
+  [Subzone.KAL_KALLANG_BAHRU]: {
+    name: { en: "Kallang Bahru" },
+    coordinates: { latitude: 1.31407726328, longitude: 103.865480279 },
+    area: Area.KALLANG,
+  },
+  [Subzone.KAL_KAMPONG_BUGIS]: {
+    name: { en: "Kampong Bugis" },
+    coordinates: { latitude: 1.30816412151, longitude: 103.870502483 },
+    area: Area.KALLANG,
+  },
+  [Subzone.KAL_KAMPONG_JAVA]: {
+    name: { en: "Kampong Java" },
+    coordinates: { latitude: 1.31370664248, longitude: 103.850314934 },
+    area: Area.KALLANG,
+  },
+  [Subzone.KAL_LAVENDER]: {
+    name: { en: "Lavender" },
+    coordinates: { latitude: 1.31082161336, longitude: 103.859146522 },
+    area: Area.KALLANG,
+  },
+  [Subzone.KAL_TANJONG_RHU]: {
+    name: { en: "Tanjong Rhu" },
+    coordinates: { latitude: 1.30059104578, longitude: 103.875910706 },
+    area: Area.KALLANG
+  },
+  [Subzone.JUW_TAMAN_JURONG]: {
+    name: { en: "Tanjong Rhu" },
+    coordinates: { latitude: 1.30059104578, longitude: 103.875910706 },
+    area: Area.KALLANG,
+  },
   [Subzone.LCK_LIM_CHU_KANG]: {
     name: { en: "Lim Chu Kang" },
     coordinates: { latitude: 1.43064278529, longitude: 103.719285508 },
