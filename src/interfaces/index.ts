@@ -310,7 +310,7 @@ export enum Subzone {
   YIS_YISHUN_WEST = "YIS_YIW",
 }
 
-export interface LocationDetails {
+interface LocationDetails {
   name: LocalisedName;
   coordinates?: Coordinates;
 }
