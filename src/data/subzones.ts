@@ -727,6 +727,11 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.43064278529, longitude: 103.719285508 },
     area: Area.LIM_CHU_KANG,
   },
+  [Subzone.MAE_MARINA_EAST]: {
+    name: { en: "Marina East" },
+    coordinates: { latitude: 1.28851730739, longitude: 103.87235163 },
+    area: Area.MARINA_EAST,
+  },
   [Subzone.MND_MANDAI_EAST]: {
     name: { en: "Mandai East" },
     coordinates: { latitude: 1.42678141142, longitude: 103.813003878 },
