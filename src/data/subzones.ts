@@ -182,6 +182,46 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.38611653345, longitude: 103.760515454 },
     area: Area.BUKIT_PANJANG,
   },
+  [Subzone.BKT_ANAK_BUKIT]: {
+    name: { en: "Anak Bukit" },
+    coordinates: { latitude: 1.33788279404, longitude: 103.771562378 },
+    area: Area.BUKIT_TIMAH,
+  },
+  [Subzone.BKT_CORONATION_ROAD]: {
+    name: { en: "Coronation Road" },
+    coordinates: { latitude: 1.32556998358, longitude: 103.801538055 },
+    area: Area.BUKIT_TIMAH,
+  },
+  [Subzone.BKT_FARRER_COURT]: {
+    name: { en: "Farrer Court" },
+    coordinates: { latitude: 1.31683804213, longitude: 103.805129439 },
+    area: Area.BUKIT_TIMAH,
+  },
+  [Subzone.BKT_HILLCREST]: {
+    name: { en: "Hillcrest" },
+    coordinates: { latitude: 1.33315732448, longitude: 103.808229456 },
+    area: Area.BUKIT_TIMAH,
+  },
+  [Subzone.BKT_HOLLAND_ROAD]: {
+    name: { en: "Holland Road" },
+    coordinates: { latitude: 1.32705245172, longitude: 103.783763473 },
+    area: Area.BUKIT_TIMAH,
+  },
+  [Subzone.BKT_LEEDON_PARK]: {
+    name: { en: "Leedon Park" },
+    coordinates: { latitude: 1.316954472, longitude: 103.796907172 },
+    area: Area.BUKIT_TIMAH,
+  },
+  [Subzone.BKT_SWISS_CLUB]: {
+    name: { en: "Swiss Club" },
+    coordinates: { latitude: 1.34063686622, longitude: 103.79231074 },
+    area: Area.BUKIT_TIMAH,
+  },
+  [Subzone.BKT_ULU_PANDAN]: {
+    name: { en: "Ulu Pandan" },
+    coordinates: { latitude: 1.31631697011, longitude: 103.781297066 },
+    area: Area.BUKIT_TIMAH,
+  },
   [Subzone.BSH_BISHAN_EAST]: {
     name: { en: "Bishan East" },
     coordinates: { latitude: 1.34982390798, longitude: 103.853014262 },
