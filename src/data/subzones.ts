@@ -147,6 +147,41 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.30659076378, longitude: 103.92708616 },
     area: Area.BEDOK,
   },
+  [Subzone.BKP_BANGKIT]: {
+    name: { en: "Bangkit" },
+    coordinates: { latitude: 1.37711093789, longitude: 103.774293376 },
+    area: Area.BUKIT_PANJANG,
+  },
+  [Subzone.BKP_DAIRY_FARM]: {
+    name: { en: "Dairy Farm" },
+    coordinates: { latitude: 1.36843179001, longitude: 103.772046192 },
+    area: Area.BUKIT_PANJANG,
+  },
+  [Subzone.BKP_FAJAR]: {
+    name: { en: "Fajar" },
+    coordinates: { latitude: 1.38478497276, longitude: 103.77114574 },
+    area: Area.BUKIT_PANJANG,
+  },
+  [Subzone.BKP_JELEBU]: {
+    name: { en: "Jelebu" },
+    coordinates: { latitude: 1.37593429987, longitude: 103.766243653 },
+    area: Area.BUKIT_PANJANG,
+  },
+  [Subzone.BKP_NATURE_RESERVE]: {
+    name: { en: "Nature Reserve" },
+    coordinates: { latitude: 1.3534685503, longitude: 103.777810912 },
+    area: Area.BUKIT_PANJANG,
+  },
+  [Subzone.BKP_SAUJANA]: {
+    name: { en: "Saujana" },
+    coordinates: { latitude: 1.38621880176, longitude: 103.766255267 },
+    area: Area.BUKIT_PANJANG,
+  },
+  [Subzone.BKP_SENJA]: {
+    name: { en: "Senja" },
+    coordinates: { latitude: 1.38611653345, longitude: 103.760515454 },
+    area: Area.BUKIT_PANJANG,
+  },
   [Subzone.BSH_BISHAN_EAST]: {
     name: { en: "Bishan East" },
     coordinates: { latitude: 1.34982390798, longitude: 103.853014262 },
