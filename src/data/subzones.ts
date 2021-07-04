@@ -442,6 +442,31 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.37665502853, longitude: 103.801189262 },
     area: Area.CENTRAL_WATER_CATCHMENT,
   },
+  [Subzone.GLG_ALJUNIED]: {
+    name: { en: "Aljunied" },
+    coordinates: { latitude: 1.31445048951, longitude: 103.883570673 },
+    area: Area.GEYLANG,
+  },
+  [Subzone.GLG_GEYLANG_EAST]: {
+    name: { en: "Geylang East" },
+    coordinates: { latitude: 1.31693921533, longitude: 103.898348217 },
+    area: Area.GEYLANG,
+  },
+  [Subzone.GLG_KALLANG_WAY]: {
+    name: { en: "Kallang Way" },
+    coordinates: { latitude: 1.32583557119, longitude: 103.876103166 },
+    area: Area.GEYLANG,
+  },
+  [Subzone.GLG_KAMPONG_UBI]: {
+    name: { en: "Kampong Ubi" },
+    coordinates: { latitude: 1.32961124965, longitude: 103.896572831 },
+    area: Area.GEYLANG,
+  },
+  [Subzone.GLG_MACPHERSON]: {
+    name: { en: "Macpherson" },
+    coordinates: { latitude: 1.32736777215, longitude: 103.885204255 },
+    area: Area.GEYLANG,
+  },
   [Subzone.JUR_INTERNATIONAL_BUSINESS_PARK]: {
     name: { en: "International Business Park" },
     coordinates: { latitude: 1.3263416163, longitude: 103.748087124 },
