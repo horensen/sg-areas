@@ -34,12 +34,11 @@
     "@types/jest": "^26.0.23",
     "auto-changelog": "^2.3.0",
     "jest": "^27.0.4",
+    "nodemon": "^2.0.9",
     "prettier": "^2.3.1",
     "ts-jest": "^27.0.3",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.3.2"
   },
-  "dependencies": {
-    "nodemon": "^2.0.9"
-  }
+  "dependencies": {}
 }
