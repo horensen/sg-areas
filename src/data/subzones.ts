@@ -733,9 +733,34 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     area: Area.MARINA_EAST,
   },
   [Subzone.MAS_MARINA_SOUTH]: {
-    name: { en: 'Marina South' },
+    name: { en: "Marina South" },
     coordinates: { latitude: 1.28053129898, longitude: 103.865628533 },
-    area: Area.MARINA_SOUTH
+    area: Area.MARINA_SOUTH,
+  },
+  [Subzone.MEP_EAST_COAST]: {
+    name: { en: "East Coast" },
+    coordinates: { latitude: 1.29969127134, longitude: 103.908675268 },
+    area: Area.MARINE_PARADE,
+  },
+  [Subzone.MEP_KATONG]: {
+    name: { en: "Katong" },
+    coordinates: { latitude: 1.30726504731, longitude: 103.902335112 },
+    area: Area.MARINE_PARADE,
+  },
+  [Subzone.MEP_MARINA_EAST]: {
+    name: { en: "Marina East (Marine Parade)" },
+    coordinates: { latitude: 1.29221591433, longitude: 103.884676534 },
+    area: Area.MARINE_PARADE,
+  },
+  [Subzone.MEP_MARINE_PARADE]: {
+    name: { en: "Marine Parade" },
+    coordinates: { latitude: 1.30281465148, longitude: 103.907574251 },
+    area: Area.MARINE_PARADE,
+  },
+  [Subzone.MEP_MOUNTBATTEN]: {
+    name: { en: "Mountbatten" },
+    coordinates: { latitude: 1.3016708798, longitude: 103.891272105 },
+    area: Area.MARINE_PARADE,
   },
   [Subzone.MND_MANDAI_EAST]: {
     name: { en: "Mandai East" },
