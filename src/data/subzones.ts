@@ -1217,6 +1217,41 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.29032908346, longitude: 103.836778913 },
     area: Area.SINGAPORE_RIVER,
   },
+  [Subzone.SER_LORONG_CHUAN]: {
+    name: { en: "Lorong Chuan" },
+    coordinates: { latitude: 1.34847121217, longitude: 103.863220599 },
+    area: Area.SERANGOON,
+  },
+  [Subzone.SER_SELETAR_HILLS]: {
+    name: { en: "Seletar Hills" },
+    coordinates: { latitude: 1.38347519094, longitude: 103.866358859 },
+    area: Area.SERANGOON,
+  },
+  [Subzone.SER_SERANGOON_CENTRAL]: {
+    name: { en: "Serangoon Central" },
+    coordinates: { latitude: 1.35223303902, longitude: 103.870675244 },
+    area: Area.SERANGOON,
+  },
+  [Subzone.SER_SERANGOON_GARDEN]: {
+    name: { en: "Serangoon Garden" },
+    coordinates: { latitude: 1.3627383542, longitude: 103.866662838 },
+    area: Area.SERANGOON,
+  },
+  [Subzone.SER_SERANGOON_NORTH]: {
+    name: { en: "Serangoon North" },
+    coordinates: { latitude: 1.37438117314, longitude: 103.873384136 },
+    area: Area.SERANGOON,
+  },
+  [Subzone.SER_SERANGOON_NORTH_INDUSTRIAL_ESTATE]: {
+    name: { en: "Serangoon North Industrial Estate" },
+    coordinates: { latitude: 1.37478448736, longitude: 103.864758529 },
+    area: Area.SERANGOON,
+  },
+  [Subzone.SER_UPPER_PAYA_LEBAR]: {
+    name: { en: "Upper Paya Lebar" },
+    coordinates: { latitude: 1.34656679391, longitude: 103.877047287 },
+    area: Area.SERANGOON,
+  },
   [Subzone.SLT_PULAR_PUNGGOL_BARAT]: {
     name: { en: "Pulau Punggol Barat" },
     coordinates: { latitude: 1.4251691934, longitude: 103.878698312 },
