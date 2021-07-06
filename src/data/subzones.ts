@@ -1352,6 +1352,11 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.45424160186, longitude: 103.850927879 },
     area: Area.SIMPANG,
   },
+  [Subzone.STI_SENTOSA]: {
+    name: { en: "Sentosa", zh: "圣淘沙" },
+    coordinates: { latitude: 1.24972128593, longitude: 103.829669992 },
+    area: Area.SOUTHERN_ISLANDS,
+  },
   [Subzone.STV_STRAITS_VIEW]: {
     name: { en: "Straits View" },
     coordinates: { latitude: 1.27125165978, longitude: 103.858773194 },
