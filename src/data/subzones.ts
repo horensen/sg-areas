@@ -1387,6 +1387,66 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.32924702779, longitude: 103.969095689 },
     area: Area.TAMPINES,
   },
+  [Subzone.TAP_BIDADARI]: {
+    name: { en: "Bidadari" },
+    coordinates: { latitude: 1.34110393554, longitude: 103.874944713 },
+    area: Area.TOA_PAYOH,
+  },
+  [Subzone.TAP_BOON_TECK]: {
+    name: { en: "Boon Teck" },
+    coordinates: { latitude: 1.33526864187, longitude: 103.853025159 },
+    area: Area.TOA_PAYOH,
+  },
+  [Subzone.TAP_BRADDELL]: {
+    name: { en: "Braddell" },
+    coordinates: { latitude: 1.34053896496, longitude: 103.849596891 },
+    area: Area.TOA_PAYOH,
+  },
+  [Subzone.TAP_JOO_SENG]: {
+    name: { en: "Joo Seng" },
+    coordinates: { latitude: 1.33659746641, longitude: 103.882326553 },
+    area: Area.TOA_PAYOH,
+  },
+  [Subzone.TAP_KIM_KEAT]: {
+    name: { en: "Kim Keat" },
+    coordinates: { latitude: 1.33188761631, longitude: 103.858636359 },
+    area: Area.TOA_PAYOH,
+  },
+  [Subzone.TAP_LORONG_8_TOA_PAYOH]: {
+    name: { en: "Lorong 8 Toa Payoh" },
+    coordinates: { latitude: 1.34126171105, longitude: 103.857102043 },
+    area: Area.TOA_PAYOH,
+  },
+  [Subzone.TAP_PEI_CHUN]: {
+    name: { en: "Pei Chun" },
+    coordinates: { latitude: 1.33678993731, longitude: 103.858606955 },
+    area: Area.TOA_PAYOH,
+  },
+  [Subzone.TAP_POTONG_PASIR]: {
+    name: { en: "Potong Pasir" },
+    coordinates: { latitude: 1.33305604285, longitude: 103.86563786 },
+    area: Area.TOA_PAYOH,
+  },
+  [Subzone.TAP_SENNETT]: {
+    name: { en: "Sennett" },
+    coordinates: { latitude: 1.3332557183, longitude: 103.873623257 },
+    area: Area.TOA_PAYOH,
+  },
+  [Subzone.TAP_TOA_PAYOH_CENTRAL]: {
+    name: { en: "Toa Payoh Central" },
+    coordinates: { latitude: 1.33264104361, longitude: 103.845985926 },
+    area: Area.TOA_PAYOH,
+  },
+  [Subzone.TAP_TOA_PAYOH_WEST]: {
+    name: { en: "Toa Payoh West" },
+    coordinates: { latitude: 1.33992257032, longitude: 103.841793723 },
+    area: Area.TOA_PAYOH,
+  },
+  [Subzone.TAP_WOODLEIGH]: {
+    name: { en: "Woodleigh" },
+    coordinates: { latitude: 1.34003589625, longitude: 103.866300005 },
+    area: Area.TOA_PAYOH,
+  },
   [Subzone.TGL_CHATSWORTH]: {
     name: { en: "Chatsworth" },
     coordinates: { latitude: 1.29703461507, longitude: 103.823402263 },
