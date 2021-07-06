@@ -822,6 +822,31 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.31005518289, longitude: 103.830337053 },
     area: Area.NEWTON,
   },
+  [Subzone.NOV_BALASTIER]: {
+    name: { en: "Balestier" },
+    coordinates: { latitude: 1.32551345556, longitude: 103.851067395 },
+    area: Area.NOVENA,
+  },
+  [Subzone.NOV_DUNEARN]: {
+    name: { en: "Dunearn" },
+    coordinates: { latitude: 1.32618983436, longitude: 103.820069643 },
+    area: Area.NOVENA,
+  },
+  [Subzone.NOV_MALCOLM]: {
+    name: { en: "Malcolm" },
+    coordinates: { latitude: 1.32312770906, longitude: 103.833949892 },
+    area: Area.NOVENA,
+  },
+  [Subzone.NOV_MOULMEIN]: {
+    name: { en: "Moulmein" },
+    coordinates: { latitude: 1.31764421667, longitude: 103.842820235 },
+    area: Area.NOVENA,
+  },
+  [Subzone.NOV_MOUNT_PLEASANT]: {
+    name: { en: "Mount Pleasant" },
+    coordinates: { latitude: 1.33382056539, longitude: 103.828963383 },
+    area: Area.NOVENA,
+  },
   [Subzone.ORC_BOULEVARD]: {
     name: { en: "Boulevard" },
     coordinates: { latitude: 1.30537276782, longitude: 103.83257213 },
