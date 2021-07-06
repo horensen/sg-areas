@@ -1387,6 +1387,26 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.32924702779, longitude: 103.969095689 },
     area: Area.TAMPINES,
   },
+  [Subzone.TGL_CHATSWORTH]: {
+    name: { en: "Chatsworth" },
+    coordinates: { latitude: 1.29703461507, longitude: 103.823402263 },
+    area: Area.TANGLIN,
+  },
+  [Subzone.TGL_NASSIM]: {
+    name: { en: "Nassim" },
+    coordinates: { latitude: 1.3138608469, longitude: 103.82435728 },
+    area: Area.TANGLIN,
+  },
+  [Subzone.TGL_RIDOUT]: {
+    name: { en: "Ridout" },
+    coordinates: { latitude: 1.30343427502, longitude: 103.811468698 },
+    area: Area.TANGLIN,
+  },
+  [Subzone.TGL_TYERSALL]: {
+    name: { en: "Tyersall" },
+    coordinates: { latitude: 1.31458674408, longitude: 103.812945338 },
+    area: Area.TANGLIN,
+  },
   [Subzone.TUA_TENGEH]: {
     name: { en: "Tengeh" },
     coordinates: { latitude: 1.33847647671, longitude: 103.650248643 },
