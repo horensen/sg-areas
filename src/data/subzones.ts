@@ -1332,6 +1332,26 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.41235799025, longitude: 103.866482994 },
     area: Area.SELETAR,
   },
+  [Subzone.SMP_PULAU_SELETAR]: {
+    name: { en: "Pulau Seletar" },
+    coordinates: { latitude: 1.4435442755, longitude: 103.864868488 },
+    area: Area.SIMPANG,
+  },
+  [Subzone.SMP_SIMPANG_NORTH]: {
+    name: { en: "Simpang North" },
+    coordinates: { latitude: 1.44716140515, longitude: 103.845797553 },
+    area: Area.SIMPANG,
+  },
+  [Subzone.SMP_SIMPANG_SOUTH]: {
+    name: { en: "Simpang South" },
+    coordinates: { latitude: 1.4344660461, longitude: 103.856393596 },
+    area: Area.SIMPANG,
+  },
+  [Subzone.SMP_TANJONG_IRAU]: {
+    name: { en: "Tanjong Irau" },
+    coordinates: { latitude: 1.45424160186, longitude: 103.850927879 },
+    area: Area.SIMPANG,
+  },
   [Subzone.STV_STRAITS_VIEW]: {
     name: { en: "Straits View" },
     coordinates: { latitude: 1.27125165978, longitude: 103.858773194 },
