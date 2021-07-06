@@ -957,6 +957,31 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.37928604681, longitude: 103.939812188 },
     area: Area.PASIR_RIS,
   },
+  [Subzone.PYL_AIRPORT_ROAD]: {
+    name: { en: "Airport Road" },
+    coordinates: { latitude: 1.35156968337, longitude: 103.897415945 },
+    area: Area.PAYA_LEBAR,
+  },
+  [Subzone.PYL_PAYA_LEBAR_EAST]: {
+    name: { en: "Paya Lebar East" },
+    coordinates: { latitude: 1.35561205454, longitude: 103.923763162 },
+    area: Area.PAYA_LEBAR,
+  },
+  [Subzone.PYL_PAYA_LEBAR_NORTH]: {
+    name: { en: "Paya Lebar North" },
+    coordinates: { latitude: 1.37316507768, longitude: 103.925799334 },
+    area: Area.PAYA_LEBAR,
+  },
+  [Subzone.PYL_PAYA_LEBAR_WEST]: {
+    name: { en: "Paya Lebar West" },
+    coordinates: { latitude: 1.37394006423, longitude: 103.91091996 },
+    area: Area.PAYA_LEBAR,
+  },
+  [Subzone.PYL_PLAB]: {
+    name: { en: "Plab" },
+    coordinates: { latitude: 1.35749654047, longitude: 103.911421129 },
+    area: Area.PAYA_LEBAR,
+  },
   [Subzone.QUE_COMMONWEALTH]: {
     name: { en: "Commonwealth" },
     coordinates: { latitude: 1.30494716445, longitude: 103.799881598 },
