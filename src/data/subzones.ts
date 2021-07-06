@@ -987,6 +987,56 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.30126468921, longitude: 103.796706811 },
     area: Area.QUEENSTOWN,
   },
+  [Subzone.RCR_BENCOOLEN]: {
+    name: { en: "Bencoolen" },
+    coordinates: { latitude: 1.30200473726, longitude: 103.851281072 },
+    area: Area.ROCHOR,
+  },
+  [Subzone.RCR_FARRER_PARK]: {
+    name: { en: "Farrer Park" },
+    coordinates: { latitude: 1.30916383358, longitude: 103.852128927 },
+    area: Area.ROCHOR,
+  },
+  [Subzone.RCR_KAMPONG_GLAM]: {
+    name: { en: "Kampong Glam" },
+    coordinates: { latitude: 1.30226289678, longitude: 103.8596908 },
+    area: Area.ROCHOR,
+  },
+  [Subzone.RCR_LITTLE_INDIA]: {
+    name: { en: "Little India" },
+    coordinates: { latitude: 1.30678335006, longitude: 103.854052653 },
+    area: Area.ROCHOR,
+  },
+  [Subzone.RCR_MACKENZIE]: {
+    name: { en: "Mackenzie" },
+    coordinates: { latitude: 1.30624018739, longitude: 103.848414336 },
+    area: Area.ROCHOR,
+  },
+  [Subzone.RCR_MOUNT_EMILY]: {
+    name: { en: "Mount Emily" },
+    coordinates: { latitude: 1.30241070302, longitude: 103.847544856 },
+    area: Area.ROCHOR,
+  },
+  [Subzone.RCR_ROCHOR_CANAL]: {
+    name: { en: "Rochor Canal" },
+    coordinates: { latitude: 1.30403532281, longitude: 103.857523471 },
+    area: Area.ROCHOR,
+  },
+  [Subzone.RCR_SELEGIE]: {
+    name: { en: "Selegie" },
+    coordinates: { latitude: 1.30215315362, longitude: 103.849648125 },
+    area: Area.ROCHOR,
+  },
+  [Subzone.RCR_SUNGEI_ROAD]: {
+    name: { en: "Sungei Road" },
+    coordinates: { latitude: 1.30569910135, longitude: 103.856692883 },
+    area: Area.ROCHOR,
+  },
+  [Subzone.RCR_VICTORIA]: {
+    name: { en: "Victoria" },
+    coordinates: { latitude: 1.29966360621, longitude: 103.852989616 },
+    area: Area.ROCHOR,
+  },
   [Subzone.SGR_BOAT_QUAY]: {
     name: { en: "Boat Quay" },
     coordinates: { latitude: 1.28735460113, longitude: 103.848189061 },
