@@ -862,6 +862,26 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.30481861577, longitude: 103.825796628 },
     area: Area.ORCHARD,
   },
+  [Subzone.OTR_CHINA_SQUARE]: {
+    name: { en: "China Square" },
+    coordinates: { latitude: 1.28438642996, longitude: 103.846883324 },
+    area: Area.OUTRAM,
+  },
+  [Subzone.OTR_CHINATOWN]: {
+    name: { en: "Chinatown" },
+    coordinates: { latitude: 1.27979006624, longitude: 103.84249902 },
+    area: Area.OUTRAM,
+  },
+  [Subzone.OTR_PEARLS_HILL]: {
+    name: { en: "Pearl's Hill" },
+    coordinates: { latitude: 1.28561279974, longitude: 103.839420237 },
+    area: Area.OUTRAM,
+  },
+  [Subzone.OTR_PEOPLES_PARK]: {
+    name: { en: "People's Park" },
+    coordinates: { latitude: 1.28155785391, longitude: 103.840138834 },
+    area: Area.OUTRAM,
+  },
   [Subzone.PGL_CONEY_ISLAND]: {
     name: { en: "Coney Island" },
     coordinates: { latitude: 1.40832722125, longitude: 103.92253451 },
