@@ -1157,6 +1157,51 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.30125218175, longitude: 103.831605207 },
     area: Area.RIVER_VALLEY,
   },
+  [Subzone.SBW_ADMIRALTY]: {
+    name: { en: "Admiralty" },
+    coordinates: { latitude: 1.45338818339, longitude: 103.825152759 },
+    area: Area.SEMBAWANG,
+  },
+  [Subzone.SBW_SEMBAWANG_CENTRAL]: {
+    name: { en: "Sembawang Central" },
+    coordinates: { latitude: 1.44637281157, longitude: 103.817761416 },
+    area: Area.SEMBAWANG,
+  },
+  [Subzone.SBW_SEMBAWANG_EAST]: {
+    name: { en: "Sembawang East" },
+    coordinates: { latitude: 1.44750107281, longitude: 103.831421995 },
+    area: Area.SEMBAWANG,
+  },
+  [Subzone.SBW_SEMBAWANG_NORTH]: {
+    name: { en: "Sembawang North" },
+    coordinates: { latitude: 1.45699749291, longitude: 103.815695235 },
+    area: Area.SEMBAWANG,
+  },
+  [Subzone.SBW_SEMBAWANG_SPRINGS]: {
+    name: { en: "Sembawang Springs" },
+    coordinates: { latitude: 1.44095578645, longitude: 103.825022834 },
+    area: Area.SEMBAWANG,
+  },
+  [Subzone.SBW_SEMBAWANG_STRAITS]: {
+    name: { en: "Sembawang Straits" },
+    coordinates: { latitude: 1.45867396457, longitude: 103.83648596 },
+    area: Area.SEMBAWANG,
+  },
+  [Subzone.SBW_SENOKO_NORTH]: {
+    name: { en: "Senoko North" },
+    coordinates: { latitude: 1.46377727425, longitude: 103.803357142 },
+    area: Area.SEMBAWANG,
+  },
+  [Subzone.SBW_SENOKO_SOUTH]: {
+    name: { en: "Senoko South" },
+    coordinates: { latitude: 1.45349867462, longitude: 103.807534572 },
+    area: Area.SEMBAWANG,
+  },
+  [Subzone.SBW_THE_WHARVES]: {
+    name: { en: "The Wharves" },
+    coordinates: { latitude: 1.4632162579, longitude: 103.820154846 },
+    area: Area.SEMBAWANG,
+  },
   [Subzone.SGR_BOAT_QUAY]: {
     name: { en: "Boat Quay" },
     coordinates: { latitude: 1.28735460113, longitude: 103.848189061 },
