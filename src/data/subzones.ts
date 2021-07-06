@@ -1447,6 +1447,11 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.34003589625, longitude: 103.866300005 },
     area: Area.TOA_PAYOH,
   },
+  [Subzone.TGH_TENGAH]: {
+    name: { en: "Tengah" },
+    coordinates: { latitude: 1.36384254021, longitude: 103.728753977 },
+    area: Area.TENGAH,
+  },
   [Subzone.TGL_CHATSWORTH]: {
     name: { en: "Chatsworth" },
     coordinates: { latitude: 1.29703461507, longitude: 103.823402263 },
