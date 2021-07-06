@@ -1217,6 +1217,41 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.29032908346, longitude: 103.836778913 },
     area: Area.SINGAPORE_RIVER,
   },
+  [Subzone.SKG_ANCHORVALE]: {
+    name: { en: "Anchorvale" },
+    coordinates: { latitude: 1.39443671049, longitude: 103.889197065 },
+    area: Area.SENGKANG,
+  },
+  [Subzone.SKG_COMPASSVALE]: {
+    name: { en: "Compassvale" },
+    coordinates: { latitude: 1.38490265944, longitude: 103.889967044 },
+    area: Area.SENGKANG,
+  },
+  [Subzone.SKG_FERNVALE]: {
+    name: { en: "Fernvale" },
+    coordinates: { latitude: 1.39516998908, longitude: 103.876506947 },
+    area: Area.SENGKANG,
+  },
+  [Subzone.SKG_LORONG_HALUS_NORTH]: {
+    name: { en: "Lorong Halus North" },
+    coordinates: { latitude: 1.3816782387, longitude: 103.910768652 },
+    area: Area.SENGKANG,
+  },
+  [Subzone.SKG_RIVERVALE]: {
+    name: { en: "Rivervale" },
+    coordinates: { latitude: 1.38761273787, longitude: 103.905003547 },
+    area: Area.SENGKANG,
+  },
+  [Subzone.SKG_SENGKANG_TOWN_CENTRE]: {
+    name: { en: "Sengkang Town Centre" },
+    coordinates: { latitude: 1.39159521894, longitude: 103.897691046 },
+    area: Area.SENGKANG,
+  },
+  [Subzone.SKG_SENGKANG_WEST]: {
+    name: { en: "Sengkang West" },
+    coordinates: { latitude: 1.39553474794, longitude: 103.863150921 },
+    area: Area.SENGKANG,
+  },
   [Subzone.SER_LORONG_CHUAN]: {
     name: { en: "Lorong Chuan" },
     coordinates: { latitude: 1.34847121217, longitude: 103.863220599 },
