@@ -1132,6 +1132,31 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.29966360621, longitude: 103.852989616 },
     area: Area.ROCHOR,
   },
+  [Subzone.RVV_INSTITUTION_HILL]: {
+    name: { en: "Institution Hill" },
+    coordinates: { latitude: 1.2940158539, longitude: 103.837500397 },
+    area: Area.RIVER_VALLEY,
+  },
+  [Subzone.RVV_LEONIE_HILL]: {
+    name: { en: "Leonie Hill" },
+    coordinates: { latitude: 1.29793980598, longitude: 103.834063829 },
+    area: Area.RIVER_VALLEY,
+  },
+  [Subzone.RVV_ONE_TREE_HILL]: {
+    name: { en: "One Tree Hill" },
+    coordinates: { latitude: 1.30172627381, longitude: 103.827168567 },
+    area: Area.RIVER_VALLEY,
+  },
+  [Subzone.RVV_OXLEY]: {
+    name: { en: "Oxley" },
+    coordinates: { latitude: 1.29711287956, longitude: 103.840528097 },
+    area: Area.RIVER_VALLEY,
+  },
+  [Subzone.RVV_PATERSON]: {
+    name: { en: "Paterson" },
+    coordinates: { latitude: 1.30125218175, longitude: 103.831605207 },
+    area: Area.RIVER_VALLEY,
+  },
   [Subzone.SGR_BOAT_QUAY]: {
     name: { en: "Boat Quay" },
     coordinates: { latitude: 1.28735460113, longitude: 103.848189061 },
