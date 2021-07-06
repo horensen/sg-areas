@@ -917,6 +917,31 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.40124498134, longitude: 103.914759058 },
     area: Area.PUNGGOL,
   },
+  [Subzone.PNR_BENOI_SECTOR]: {
+    name: { en: "Benoi Sector" },
+    coordinates: { latitude: 1.31775387027, longitude: 103.686569536 },
+    area: Area.PIONEER,
+  },
+  [Subzone.PNR_GUL_BASIN]: {
+    name: { en: "Gul Basin" },
+    coordinates: { latitude: 1.304906913, longitude: 103.676423956 },
+    area: Area.PIONEER,
+  },
+  [Subzone.PNR_GUL_CIRCLE]: {
+    name: { en: "Gul Circle" },
+    coordinates: { latitude: 1.31538244914, longitude: 103.668829902 },
+    area: Area.PIONEER,
+  },
+  [Subzone.PNR_JOO_KOON]: {
+    name: { en: "Joo Koon" },
+    coordinates: { latitude: 1.32559577375, longitude: 103.679521771 },
+    area: Area.PIONEER,
+  },
+  [Subzone.PNR_PIONEER_SECTOR]: {
+    name: { en: "Pioneer Sector" },
+    coordinates: { latitude: 1.30045108935, longitude: 103.66145185 },
+    area: Area.PIONEER,
+  },
   [Subzone.PSR_FLORA_DRIVE]: {
     name: { en: "Flora Drive" },
     coordinates: { latitude: 1.35930124931, longitude: 103.966321885 },
