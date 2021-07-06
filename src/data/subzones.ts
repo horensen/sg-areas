@@ -1217,6 +1217,31 @@ const subzones: { [id in Subzone]: SubzoneDetails } = {
     coordinates: { latitude: 1.29032908346, longitude: 103.836778913 },
     area: Area.SINGAPORE_RIVER,
   },
+  [Subzone.SKD_GALI_BATU]: {
+    name: { en: "Gali Batu" },
+    coordinates: { latitude: 1.39998843475, longitude: 103.762915338 },
+    area: Area.SUNGEI_KADUT,
+  },
+  [Subzone.SKD_KRANJI]: {
+    name: { en: "Kranji" },
+    coordinates: { latitude: 1.43432802308, longitude: 103.759335871 },
+    area: Area.SUNGEI_KADUT,
+  },
+  [Subzone.SKD_PANG_SUA]: {
+    name: { en: "Pang Sua" },
+    coordinates: { latitude: 1.41262047352, longitude: 103.748272494 },
+    area: Area.SUNGEI_KADUT,
+  },
+  [Subzone.SKD_RESERVOIR_VIEW]: {
+    name: { en: "Reservoir View" },
+    coordinates: { latitude: 1.43174231316, longitude: 103.746758594 },
+    area: Area.SUNGEI_KADUT,
+  },
+  [Subzone.SKD_TURF_CLUB]: {
+    name: { en: "Turf Club" },
+    coordinates: { latitude: 1.41878066207, longitude: 103.763539581 },
+    area: Area.SUNGEI_KADUT,
+  },
   [Subzone.SKG_ANCHORVALE]: {
     name: { en: "Anchorvale" },
     coordinates: { latitude: 1.39443671049, longitude: 103.889197065 },
