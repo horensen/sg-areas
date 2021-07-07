@@ -5,10 +5,12 @@ interface LocalisedName {
   ta?: string;
 }
 
-interface Coordinates {
+export interface Coordinates {
   latitude: number;
   longitude: number;
 }
+
+type Metres = number;
 
 // Administrative level 1
 export enum Region {
@@ -403,6 +405,7 @@ export enum Subzone {
 interface LocationDetails {
   name: LocalisedName;
   coordinates?: Coordinates;
+  distance?: Metres;
 }
 
 export interface RegionDetails extends LocationDetails {}
@@ -413,4 +416,8 @@ export interface AreaDetails extends LocationDetails {
 
 export interface SubzoneDetails extends LocationDetails {
   area: Area;
+}
+
+export interface ProximityConditions {
+  closest: Metres;
 }
