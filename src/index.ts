@@ -58,7 +58,7 @@ export const getNearest = (
   const areaResults = {} as { [id: string]: AreaDetails };
   const subzoneResults = {} as { [id: string]: SubzoneDetails };
 
-  let temp = [] as any;
+  const temp = [] as any;
 
   const appendDistance = (locations: any) => {
     Object.keys(locations).forEach((id) => {

@@ -117,5 +117,5 @@ describe("Getting nearest locations", () => {
         },
       },
     });
-  })
+  });
 });

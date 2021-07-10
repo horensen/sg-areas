@@ -408,6 +408,7 @@ interface LocationDetails {
   distance?: Metres;
 }
 
+// tslint:disable-next-line
 export interface RegionDetails extends LocationDetails {}
 
 export interface AreaDetails extends LocationDetails {
