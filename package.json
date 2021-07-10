@@ -1,6 +1,6 @@
 {
   "name": "sg-areas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Find regions, areas and subzones in Singapore",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
